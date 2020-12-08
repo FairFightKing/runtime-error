@@ -1,11 +1,20 @@
 import React, {Component} from 'react';
 import suitComponent from "./Components/shopSuitComponent"
-import data from "./Database/data"
 
 function Shop() {
+    const data = [
+        {
+            "name" : "Adidas",
+            "price" : 80,
+            "color" : "black",
+            "img" : "url"
+        }
+    ]
   return (
     <div className="App">
-      <header></header>
+      <header>
+
+      </header>
         <section>
             <div className="filter">
             </div>
