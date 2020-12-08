@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-const suitComponent = (props) => {
+const SuitComponent = (props) => {
     return  (
         <div data-color={props.color}>
             <img src={props.img} alt=""/>
@@ -13,4 +13,4 @@ const suitComponent = (props) => {
     )
 }
 
-export default suitComponent();
+export default SuitComponent;
