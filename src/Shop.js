@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import SuitComponent from "./Components/shopSuitComponent"
 import style from "./shop.css"
-import image from "./img/image.png";
+import man from "./img/man.png";
+import woman from "./img/woman.png";
 
 function Shop() {
   const data = [
@@ -10,7 +11,14 @@ function Shop() {
       price: 80,
       color: "black",
       img: "url",
-      image: image,
+      image: man,
+    },
+    {
+      name: "Nike",
+      price: 150,
+      color: "orange",
+      img: "url",
+      image: woman,
     },
   ];
   return (
