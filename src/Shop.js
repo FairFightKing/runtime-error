@@ -11,10 +11,7 @@ function Shop() {
             </div>
             <div className="content">
                 {data.map((data) => {
-                    return (
-                        <suitComponent img={data.img} name={data.name} price={data.price} color={data.color}>
-                        </suitComponent>
-                    )
+                    return <suitComponent img={data.img} name={data.name} price={data.price} color={data.color}/>
                 })}
 
             </div>
