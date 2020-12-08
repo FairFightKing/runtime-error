@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
 import SuitComponent from "./Components/shopSuitComponent"
-<<<<<<< HEAD
-import data from "./Database/data"
-=======
->>>>>>> da5ae40d0d426e718ca737467d1c76bc5492e424
 
 function Shop() {
     const data = [
@@ -23,8 +19,8 @@ function Shop() {
             <div className="filter">
             </div>
             <div className="content">
-                {data.map((data) => {
-                    return <SuitComponent img={data.img} name={data.name} price={data.price} color={data.color}/>
+                {data.map((e, i) => {
+                    return <SuitComponent img={e.img} name={e.name} price={e.price} color={e.color} key={i}/>
                 })}
 
             </div>
