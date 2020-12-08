@@ -1,0 +1,29 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.table > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.table .infos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.table .infos .p {
+    width: calc((100% - 25px) / 3);
+}
+
+.table .amount{
+    display: inline-block;
+    width: 30%;
+}

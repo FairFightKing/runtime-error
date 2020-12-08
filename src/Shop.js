@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SuitComponent from "./Components/shopSuitComponent"
+import style from "./shop.css"
 
 function Shop() {
     const data = [
